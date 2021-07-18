@@ -1,0 +1,70 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+                 all       3e+03    4.51e+03       0.383       0.472       0.367       0.179
+                 all       3e+03    4.51e+03       0.383       0.471       0.367       0.179
+                 all       3e+03    4.51e+03       0.382        0.47       0.367       0.179
+                 all       3e+03    4.51e+03       0.383       0.471       0.367       0.179
+                 all       3e+03    4.51e+03       0.383       0.471       0.367       0.179
+                 all       3e+03    4.51e+03       0.384        0.47       0.367       0.179
+                 all       3e+03    4.51e+03       0.384       0.469       0.367       0.179
+                 all       3e+03    4.51e+03       0.384       0.469       0.367       0.179
+                 all       3e+03    4.51e+03       0.385       0.469       0.366       0.178
+                 all       3e+03    4.51e+03       0.385       0.469       0.367       0.178
+                 all       3e+03    4.51e+03       0.385        0.47       0.367       0.178
+                 all       3e+03    4.51e+03       0.385        0.47       0.367       0.178
+                 all       3e+03    4.51e+03       0.385        0.47       0.367       0.178
+                 all       3e+03    4.51e+03       0.383       0.469       0.367       0.178
+                 all       3e+03    4.51e+03       0.384       0.469       0.367       0.178
+                 all       3e+03    4.51e+03       0.384       0.469       0.367       0.178
+                 all       3e+03    4.51e+03       0.384       0.468       0.367       0.178
+                 all       3e+03    4.51e+03       0.385       0.468       0.367       0.178
+                 all       3e+03    4.51e+03       0.384       0.467       0.366       0.178
+                 all       3e+03    4.51e+03       0.385       0.468       0.367       0.178
+                 all       3e+03    4.51e+03       0.386       0.467       0.366       0.178
+                 all       3e+03    4.51e+03       0.387       0.467       0.366       0.178
+                 all       3e+03    4.51e+03        0.39       0.468       0.368       0.178
+                 all       3e+03    4.51e+03       0.389       0.466       0.368       0.178
+                 all       3e+03    4.51e+03       0.389       0.465       0.368       0.178
+                 all       3e+03    4.51e+03       0.389       0.463       0.368       0.178
+                 all       3e+03    4.51e+03       0.389       0.463       0.368       0.178
+                 all       3e+03    4.51e+03       0.391       0.461       0.369       0.178
+                 all       3e+03    4.51e+03       0.391       0.462       0.368       0.178
+                 all       3e+03    4.51e+03       0.392       0.462       0.369       0.177
+                 all       3e+03    4.51e+03       0.392        0.46       0.368       0.177
+                 all       3e+03    4.51e+03       0.392       0.459       0.369       0.177
+                 all       3e+03    4.51e+03       0.394       0.459       0.369       0.177
+                 all       3e+03    4.51e+03       0.393       0.458       0.369       0.176
+                 all       3e+03    4.51e+03       0.394       0.457       0.369       0.176
+                 all       3e+03    4.51e+03       0.394       0.456       0.369       0.177
+                 all       3e+03    4.51e+03       0.395       0.455       0.369       0.177
+                 all       3e+03    4.51e+03       0.396       0.455       0.369       0.177
+                 all       3e+03    4.51e+03       0.396       0.452       0.368       0.177
+                 all       3e+03    4.51e+03       0.396       0.451       0.369       0.177
+                 all       3e+03    4.51e+03       0.398       0.452       0.369       0.177
+                 all       3e+03    4.51e+03         0.4       0.453       0.369       0.176
+                 all       3e+03    4.51e+03         0.4       0.453       0.369       0.176
+                 all       3e+03    4.51e+03       0.399       0.451       0.368       0.176
+                 all       3e+03    4.51e+03         0.4       0.451       0.368       0.177
+                 all       3e+03    4.51e+03       0.401        0.45       0.369       0.177
+                 all       3e+03    4.51e+03       0.401        0.45       0.369       0.177
+                 all       3e+03    4.51e+03       0.403       0.449       0.369       0.177
+                 all       3e+03    4.51e+03       0.404       0.449       0.368       0.177
+                 all       3e+03    4.51e+03       0.405       0.449       0.368       0.177
+                 all       3e+03    4.51e+03       0.406       0.448       0.368       0.177
+                 all       3e+03    4.51e+03       0.404       0.445       0.368       0.177
+                 all       3e+03    4.51e+03       0.404       0.445       0.367       0.177
+                 all       3e+03    4.51e+03       0.405       0.444       0.367       0.177
+                 all       3e+03    4.51e+03       0.407       0.444       0.366       0.177
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_zfturbo/output/yolo_model/yolov5_fold0/exp4/weights/last.pt, 175.3MB
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_zfturbo/output/yolo_model/yolov5_fold0/exp4/weights/best.pt, 175.3MB
