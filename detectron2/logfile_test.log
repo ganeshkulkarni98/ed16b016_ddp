@@ -1,0 +1,20 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+1.6.0+cu101 True
+{'text/html': '        <script type="text/javascript">\n        window.PlotlyConfig = {MathJaxConfig: \'local\'};\n        if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}\n        if (typeof require !== \'undefined\') {\n        require.undef("plotly");\n        requirejs.config({\n            paths: {\n                \'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']\n            }\n        });\n        require([\'plotly\'], function(Plotly) {\n            window._Plotly = Plotly;\n        });\n        }\n        </script>\n        '}
+flags Flags(debug=False, outdir='results/v9', imgdir_name='vinbigdata', split_mode='valid20', seed=111, train_data_type='original', use_class14=False, iter=50000, ims_per_batch=16, num_workers=4, lr_scheduler_name='WarmupCosineLR', base_lr=0.001, roi_batch_size_per_image=512, eval_period=1000, aug_kwargs={'RandomBrightnessContrast': {'p': 0.5}})
+cfg.OUTPUT_DIR ./output -> results/v9
+Original thresh 0.05
+Changed  thresh 0.0
+Load from cache dataset_dicts_cache_test_debug0.pkl

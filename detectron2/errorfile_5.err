@@ -1,0 +1,103 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Skip loading parameter 'roi_heads.box_predictor.cls_score.weight' to the model due to incompatible shapes: (81, 1024) in the checkpoint but (15, 1024) in the model! You might want to double check if this is expected.
+Skip loading parameter 'roi_heads.box_predictor.cls_score.bias' to the model due to incompatible shapes: (81,) in the checkpoint but (15,) in the model! You might want to double check if this is expected.
+Skip loading parameter 'roi_heads.box_predictor.bbox_pred.weight' to the model due to incompatible shapes: (320, 1024) in the checkpoint but (56, 1024) in the model! You might want to double check if this is expected.
+Skip loading parameter 'roi_heads.box_predictor.bbox_pred.bias' to the model due to incompatible shapes: (320,) in the checkpoint but (56,) in the model! You might want to double check if this is expected.
+Some model parameters or buffers are not found in the checkpoint:
+[34mroi_heads.box_predictor.bbox_pred.{bias, weight}[0m
+[34mroi_heads.box_predictor.cls_score.{bias, weight}[0m
+/lfs1/usrscratch/btech/ed16b016/project/detectron2/detectron2/modeling/roi_heads/fast_rcnn.py:103: UserWarning:
+
+This overload of nonzero is deprecated:
+	nonzero()
+Consider using one of the following signatures instead:
+	nonzero(*, bool as_tuple) (Triggered internally at  /pytorch/torch/csrc/utils/python_arg_parser.cpp:766.)
+
+Traceback (most recent call last):
+  File "/lfs/usrhome/btech/ed16b016/scratch/project/detectron2/det_train_5.py", line 1335, in <module>
+    trainer.train()
+  File "/lfs1/usrscratch/btech/ed16b016/project/detectron2/detectron2/engine/defaults.py", line 485, in train
+    super().train(self.start_iter, self.max_iter)
+  File "/lfs1/usrscratch/btech/ed16b016/project/detectron2/detectron2/engine/train_loop.py", line 149, in train
+    self.run_step()
+  File "/lfs1/usrscratch/btech/ed16b016/project/detectron2/detectron2/engine/defaults.py", line 495, in run_step
+    self._trainer.run_step()
+  File "/lfs1/usrscratch/btech/ed16b016/project/detectron2/detectron2/engine/train_loop.py", line 285, in run_step
+    losses.backward()
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/autograd/__init__.py", line 125, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB (GPU 0; 31.75 GiB total capacity; 28.76 GiB already allocated; 1.38 GiB free; 29.20 GiB reserved in total by PyTorch)
+Exception raised from malloc at /pytorch/c10/cuda/CUDACachingAllocator.cpp:272 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x42 (0x2b7dae8f81e2 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x1e64b (0x2b7dae69964b in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #2: <unknown function> + 0x1f464 (0x2b7dae69a464 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #3: <unknown function> + 0x1faa1 (0x2b7dae69aaa1 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #4: at::native::empty_cuda(c10::ArrayRef<long>, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0x11e (0x2b7d7a5a452e in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0xf51329 (0x2b7d789e0329 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: <unknown function> + 0xf6b157 (0x2b7d789fa157 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0x10e9c7d (0x2b7d689b7c7d in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #8: <unknown function> + 0x10e9f97 (0x2b7d689b7f97 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #9: at::empty(c10::ArrayRef<long>, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0xfa (0x2b7d68ac2a1a in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #10: at::native::zeros(c10::ArrayRef<long>, c10::TensorOptions const&) + 0x25 (0x2b7d6873a0c5 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #11: <unknown function> + 0x128b2f3 (0x2b7d68b592f3 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #12: <unknown function> + 0x10ea319 (0x2b7d689b8319 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #13: <unknown function> + 0x10e55ff (0x2b7d689b35ff in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #14: <unknown function> + 0x10ea319 (0x2b7d689b8319 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #15: at::zeros(c10::ArrayRef<long>, c10::TensorOptions const&) + 0xd5 (0x2b7d68aadfb5 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #16: ROIAlign_backward_cuda(at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool) + 0x4d6 (0x2b7db6c42112 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #17: c10::impl::wrap_kernel_functor_unboxed_<c10::impl::detail::WrapFunctionIntoRuntimeFunctor_<at::Tensor (*)(at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool), at::Tensor, c10::guts::typelist::typelist<at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool> >, at::Tensor (at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool)>::call(c10::OperatorKernel*, at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool) + 0x38 (0x2b7db6bceed8 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #18: _roi_align_backward(at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool) + 0x14a (0x2b7db6bce54a in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #19: std::enable_if<std::is_same<ROIAlignBackwardFunction, ROIAlignBackwardFunction>::value, decltype (ROIAlignBackwardFunction::forward((decltype(nullptr))0, (declval<at::Tensor const&>)(), (declval<at::Tensor const&>)(), (declval<double const&>)(), (declval<long const&>)(), (declval<long const&>)(), (declval<long const&>)(), (declval<long const&>)(), (declval<long const&>)(), (declval<long const&>)(), (declval<long const&>)(), (declval<bool const&>)()))>::type torch::autograd::Function<ROIAlignBackwardFunction>::apply<ROIAlignBackwardFunction, at::Tensor const&, at::Tensor const&, double const&, long const&, long const&, long const&, long const&, long const&, long const&, long const&, bool const&>(at::Tensor const&, at::Tensor const&, double const&, long const&, long const&, long const&, long const&, long const&, long const&, long const&, bool const&) + 0x7f1 (0x2b7db6be4ff1 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #20: ROIAlign_backward_autograd(at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool) + 0x78 (0x2b7db6bce6e8 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #21: c10::impl::wrap_kernel_functor_unboxed_<c10::impl::detail::WrapFunctionIntoRuntimeFunctor_<at::Tensor (*)(at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool), at::Tensor, c10::guts::typelist::typelist<at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool> >, at::Tensor (at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool)>::call(c10::OperatorKernel*, at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool) + 0x38 (0x2b7db6bceed8 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #22: _roi_align_backward(at::Tensor const&, at::Tensor const&, double, long, long, long, long, long, long, long, bool) + 0x14a (0x2b7db6bce54a in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #23: ROIAlignFunction::backward(torch::autograd::AutogradContext*, std::vector<at::Tensor, std::allocator<at::Tensor> >) + 0x30e (0x2b7db6be444e in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #24: torch::autograd::CppNode<ROIAlignFunction>::apply(std::vector<at::Tensor, std::allocator<at::Tensor> >&&) + 0x154 (0x2b7db6be8c14 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torchvision/_C.so)
+frame #25: <unknown function> + 0x3375bb7 (0x2b7d6ac43bb7 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #26: torch::autograd::Engine::evaluate_function(std::shared_ptr<torch::autograd::GraphTask>&, torch::autograd::Node*, torch::autograd::InputBuffer&, std::shared_ptr<torch::autograd::ReadyQueue> const&) + 0x1400 (0x2b7d6ac3f400 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #27: torch::autograd::Engine::thread_main(std::shared_ptr<torch::autograd::GraphTask> const&) + 0x451 (0x2b7d6ac3ffa1 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #28: torch::autograd::Engine::thread_init(int, std::shared_ptr<torch::autograd::ReadyQueue> const&, bool) + 0x89 (0x2b7d6ac38119 in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #29: torch::autograd::python::PythonEngine::thread_init(int, std::shared_ptr<torch::autograd::ReadyQueue> const&, bool) + 0x4a (0x2b7d6685770a in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/lib/python3.8/site-packages/torch/lib/libtorch_python.so)
+frame #30: <unknown function> + 0xc819d (0x2b7d2528919d in /lfs/usrhome/btech/ed16b016/.conda/envs/ganesh/bin/../lib/libstdc++.so.6)
+frame #31: <unknown function> + 0x7dd5 (0x2b7d02d43dd5 in /lib64/libpthread.so.0)
+frame #32: clone + 0x6d (0x2b7d03055ead in /lib64/libc.so.6)
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+

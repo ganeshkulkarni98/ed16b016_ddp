@@ -27,8 +27,8 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0,1"
 
 from detectron2.data.datasets import register_coco_instances
 
-register_coco_instances("my_dataset_train", {}, "/lfs/usrhome/btech/ed16b016/scratch/project/fasterrcnn/train_1.json", "/lfs/usrhome/btech/ed16b016/scratch/project/yolo/train_png_div_2")
-register_coco_instances("my_dataset_val", {}, "/lfs/usrhome/btech/ed16b016/scratch/project/fasterrcnn/test_1.json", "/lfs/usrhome/btech/ed16b016/scratch/project/yolo/train_png_div_2")
+register_coco_instances("my_dataset_train", {}, "/lfs/usrhome/btech/ed16b016/scratch/project/fasterrcnn/train_5.json", "/lfs/usrhome/btech/ed16b016/scratch/project/yolo/train_png_div_2")
+register_coco_instances("my_dataset_val", {}, "/lfs/usrhome/btech/ed16b016/scratch/project/fasterrcnn/test_5.json", "/lfs/usrhome/btech/ed16b016/scratch/project/yolo/train_png_div_2")
 
 #We are importing our own Trainer Module here to use the COCO validation evaluation during training. Otherwise no validation eval occurs.
 
