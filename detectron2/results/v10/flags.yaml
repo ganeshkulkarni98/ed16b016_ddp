@@ -1,0 +1,17 @@
+aug_kwargs:
+  RandomBrightnessContrast:
+    p: 0.5
+base_lr: 0.001
+debug: false
+eval_period: 1000
+imgdir_name: vinbigdata
+ims_per_batch: 24
+iter: 50000
+lr_scheduler_name: WarmupCosineLR
+num_workers: 4
+outdir: /lfs/usrhome/btech/ed16b016/scratch/project/detectron2/results/v10
+roi_batch_size_per_image: 512
+seed: 111
+split_mode: valid20
+train_data_type: original
+use_class14: false
