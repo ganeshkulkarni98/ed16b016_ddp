@@ -1,0 +1,28 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+Plotting labels... 
+
+[34m[1mautoanchor: [0mAnalyzing anchors... anchors/target = 4.49, Best Possible Recall (BPR) = 0.9999
+                 all        3000        7382     0.00019    0.000148    1.74e-05     3.5e-06
+                 all        3000        7382       0.215     0.00508    0.000221    4.35e-05
+                 all        3000        7382     0.00113     0.00696    0.000382    6.55e-05
+                 all        3000        7382       0.357      0.0118     0.00429     0.00139
+                 all        3000        7382       0.298      0.0177     0.00806     0.00233
+                 all        3000        7382    0.000244      0.0135    5.87e-05    1.39e-05
+                 all        3000        7382        0.36     0.00356     0.00044    0.000104
+                 all        3000        7382       0.287     0.00416    9.52e-05    1.99e-05
+                 all        3000        7382       0.362     0.00173    0.000517    0.000103
+                 all        3000        7382       0.362      0.0184     0.00229    0.000619
+
+WARNING: Dataset not found, nonexistent paths: ['/media/gankrish/mirlproject2/vinbigdata-chest-xray-abnormalities-detection/yolo/val.txt']

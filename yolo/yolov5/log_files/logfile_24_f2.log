@@ -1,0 +1,64 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+                 all        3000        9502       0.282       0.248       0.169      0.0948
+                 all        3000        9502        0.28       0.241        0.17      0.0954
+                 all        3000        9502       0.282       0.241       0.171      0.0959
+                 all        3000        9502       0.287        0.25       0.172      0.0965
+                 all        3000        9502       0.291       0.249       0.172      0.0963
+                 all        3000        9502       0.292       0.242       0.173      0.0968
+                 all        3000        9502       0.294       0.242       0.173      0.0969
+                 all        3000        9502       0.296       0.242       0.175      0.0975
+                 all        3000        9502       0.294       0.251       0.177      0.0979
+                 all        3000        9502       0.295       0.251       0.177      0.0982
+                 all        3000        9502         0.3       0.251       0.177       0.098
+                 all        3000        9502       0.298       0.249       0.178      0.0983
+                 all        3000        9502       0.301       0.252       0.179      0.0989
+                 all        3000        9502       0.301       0.249       0.179      0.0987
+                 all        3000        9502       0.302        0.25       0.179      0.0989
+                 all        3000        9502       0.304       0.252        0.18      0.0992
+                 all        3000        9502       0.303       0.252       0.181      0.0998
+                 all        3000        9502       0.303       0.252       0.182      0.0999
+                 all        3000        9502       0.305       0.251       0.181      0.0998
+                 all        3000        9502       0.307       0.251       0.183         0.1
+                 all        3000        9502       0.314       0.243       0.183       0.101
+                 all        3000        9502       0.308       0.252       0.183       0.101
+                 all        3000        9502       0.316       0.242       0.184       0.101
+                 all        3000        9502       0.299        0.27       0.183       0.101
+                 all        3000        9502       0.321       0.242       0.185       0.101
+                 all        3000        9502       0.313        0.25       0.185       0.101
+                 all        3000        9502       0.314        0.25       0.185       0.101
+                 all        3000        9502       0.325       0.242       0.185       0.101
+                 all        3000        9502       0.324       0.243       0.186       0.101
+                 all        3000        9502       0.324       0.242       0.186       0.101
+                 all        3000        9502       0.308       0.257       0.185       0.101
+                 all        3000        9502        0.31        0.26       0.186       0.102
+                 all        3000        9502       0.312       0.262       0.187       0.102
+                 all        3000        9502       0.311       0.262       0.187       0.102
+  Aortic enlargement        3000        1447       0.276       0.772       0.533       0.259
+         Atelectasis        3000          71       0.283      0.0172      0.0555      0.0177
+       Calcification        3000         224       0.103      0.0848      0.0257      0.0119
+        Cardiomegaly        3000        1079       0.178       0.642       0.373       0.168
+       Consolidation        3000         112       0.183      0.0714      0.0525      0.0153
+                 ILD        3000         242       0.681     0.00897      0.0697      0.0218
+        Infiltration        3000         241       0.305      0.0539      0.0527       0.016
+        Lung Opacity        3000         504        0.13       0.171      0.0588      0.0143
+         Nodule/Mass        3000         549       0.209       0.288       0.153      0.0614
+        Other lesion        3000         450      0.0518      0.0311     0.00613     0.00186
+    Pleural effusion        3000         500       0.262       0.384       0.255      0.0661
+  Pleural thickening        3000         986        0.15       0.293       0.135      0.0318
+        Pneumothorax        3000          30           1           0           0           0
+  Pulmonary fibrosis        3000         947       0.186       0.114      0.0743      0.0207
+          No finding        3000        2120       0.666           1       0.961       0.831
+Optimizer stripped from runs/train/exp15/weights/last.pt, 175.4MB
+Optimizer stripped from runs/train/exp15/weights/best.pt, 175.4MB

@@ -1,0 +1,89 @@
+/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+YOLOv5  torch 1.8.0 CPU
+
+Namespace(weights='/lfs/usrhome/btech/ed16b016/scratch/project/yolov5x.pt', cfg='/lfs/usrhome/btech/ed16b016/scratch/project/yolov5/models/yolov5x.yaml', data='/lfs/usrhome/btech/ed16b016/scratch/project/yolov5/data/vinbig.yaml', hyp='/lfs/usrhome/btech/ed16b016/scratch/project/yolov5/data/hyp.scratch.yaml', epochs=50, batch_size=16, img_size=[1024, 1024], rect=False, resume=False, nosave=False, notest=False, noautoanchor=False, evolve=False, bucket='', cache_images=False, image_weights=False, device='', multi_scale=False, single_cls=False, adam=True, sync_bn=False, local_rank=-1, log_imgs=16, log_artifacts=False, workers=8, project='runs/train', entity=None, name='exp', exist_ok=False, quad=False, linear_lr=False, world_size=1, global_rank=-1, save_dir='runs/train/exp', total_batch_size=16)
+[34m[1mwandb: [0mInstall Weights & Biases for YOLOv5 logging with 'pip install wandb' (recommended)
+Start Tensorboard with "tensorboard --logdir runs/train", view at http://localhost:6006/
+[34m[1mhyperparameters: [0mlr0=0.01, lrf=0.2, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=0.05, cls=0.5, cls_pw=1.0, obj=1.0, obj_pw=1.0, iou_t=0.2, anchor_t=4.0, fl_gamma=0.0, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, mosaic=1.0, mixup=0.0
+
+                 from  n    params  module                                  arguments                     
+  0                -1  1      8800  models.common.Focus                     [3, 80, 3]                    
+  1                -1  1    115520  models.common.Conv                      [80, 160, 3, 2]               
+  2                -1  1    309120  models.common.C3                        [160, 160, 4]                 
+  3                -1  1    461440  models.common.Conv                      [160, 320, 3, 2]              
+  4                -1  1   3285760  models.common.C3                        [320, 320, 12]                
+  5                -1  1   1844480  models.common.Conv                      [320, 640, 3, 2]              
+  6                -1  1  13125120  models.common.C3                        [640, 640, 12]                
+  7                -1  1   7375360  models.common.Conv                      [640, 1280, 3, 2]             
+  8                -1  1   4099840  models.common.SPP                       [1280, 1280, [5, 9, 13]]      
+  9                -1  1  19676160  models.common.C3                        [1280, 1280, 4, False]        
+ 10                -1  1    820480  models.common.Conv                      [1280, 640, 1, 1]             
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']          
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]                           
+ 13                -1  1   5332480  models.common.C3                        [1280, 640, 4, False]         
+ 14                -1  1    205440  models.common.Conv                      [640, 320, 1, 1]              
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']          
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]                           
+ 17                -1  1   1335040  models.common.C3                        [640, 320, 4, False]          
+ 18                -1  1    922240  models.common.Conv                      [320, 320, 3, 2]              
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]                           
+ 20                -1  1   4922880  models.common.C3                        [640, 640, 4, False]          
+ 21                -1  1   3687680  models.common.Conv                      [640, 640, 3, 2]              
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]                           
+ 23                -1  1  19676160  models.common.C3                        [1280, 1280, 4, False]        
+ 24      [17, 20, 23]  1    127851  models.yolo.Detect                      [14, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [320, 640, 1280]]
+Model Summary: 607 layers, 87331851 parameters, 87331851 gradients, 217.6 GFLOPS
+
+Transferred 786/794 items from /lfs/usrhome/btech/ed16b016/scratch/project/yolov5x.pt
+Scaled weight_decay = 0.0005
+Optimizer groups: 134 .bias, 134 conv.weight, 131 other
+
+[34m[1mtrain: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/VinBig_yolov4_cfg/train_.cache' for images and labels... 11999 found, 0 missing, 8485 empty, 1 corrupted: 100%|██████████| 12000/12000 [00:00<?, ?it/s]
+[34m[1mtrain: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/VinBig_yolov4_cfg/train_.cache' for images and labels... 11999 found, 0 missing, 8485 empty, 1 corrupted: 100%|██████████| 12000/12000 [00:00<?, ?it/s]
+
+[34m[1mval: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/VinBig_yolov4_cfg/val_.cache' for images and labels... 3000 found, 0 missing, 2120 empty, 0 corrupted: 100%|██████████| 3000/3000 [00:00<?, ?it/s]
+[34m[1mval: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/VinBig_yolov4_cfg/val_.cache' for images and labels... 3000 found, 0 missing, 2120 empty, 0 corrupted: 100%|██████████| 3000/3000 [00:00<?, ?it/s]
+Image sizes 1024 train, 1024 test
+Using 8 dataloader workers
+Logging results to runs/train/exp
+Starting training for 50 epochs...
+
+     Epoch   gpu_mem       box       obj       cls     total    labels  img_size
+
+  0%|          | 0/750 [00:00<?, ?it/s]
+  0%|          | 0/750 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/lfs/usrhome/btech/ed16b016/scratch/project/yolov5/train.py", line 531, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "/lfs/usrhome/btech/ed16b016/scratch/project/yolov5/train.py", line 271, in train
+    for i, (imgs, targets, paths, _) in pbar:  # batch -------------------------------------------------------------
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/tqdm/std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "/lfs1/usrscratch/btech/ed16b016/project/yolov5/utils/datasets.py", line 104, in __iter__
+    yield next(self.iterator)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 517, in __next__
+    data = self._next_data()
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1199, in _next_data
+    return self._process_data(data)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1225, in _process_data
+    data.reraise()
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/_utils.py", line 429, in reraise
+    raise self.exc_type(msg)
+AssertionError: Caught AssertionError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/utils/data/_utils/worker.py", line 202, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/myenv/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/lfs1/usrscratch/btech/ed16b016/project/yolov5/utils/datasets.py", line 517, in __getitem__
+    img, labels = load_mosaic(self, index)
+  File "/lfs1/usrscratch/btech/ed16b016/project/yolov5/utils/datasets.py", line 672, in load_mosaic
+    img, _, (h, w) = load_image(self, index)
+  File "/lfs1/usrscratch/btech/ed16b016/project/yolov5/utils/datasets.py", line 627, in load_image
+    assert img is not None, 'Image Not Found ' + path
+AssertionError: Image Not Found /content/drive/MyDrive/vinbig_yolo/0005e8e3701dfb1dd93d53e2ff537b6e.png
+
+/var/spool/pbs/mom_priv/jobs/169901.hn1.SC: line 11: deactivate: No such file or directory

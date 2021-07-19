@@ -1,0 +1,82 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+Plotting labels... 
+
+[34m[1mautoanchor: [0mAnalyzing anchors... anchors/target = 4.49, Best Possible Recall (BPR) = 0.9999
+                 all        3000        7382       0.653      0.0107     0.00372     0.00105
+                 all        3000        7382    0.000608      0.0196    2.66e-05    3.88e-06
+                 all        3000        7382       0.143     0.00133    5.43e-05    1.22e-05
+                 all        3000        7382       0.719     0.00657     0.00153    0.000562
+                 all        3000        7382       0.657      0.0213     0.00877     0.00355
+                 all        3000        7382       0.291       0.026    0.000986    0.000293
+                 all        3000        7382     0.00294       0.085    0.000815    0.000134
+                 all        3000        7382      0.0816      0.0112     0.00121    0.000393
+                 all        3000        7382       0.307      0.0722      0.0176     0.00456
+                 all        3000        7382       0.621      0.0185      0.0114      0.0037
+                 all        3000        7382       0.434      0.0135     0.00287    0.000844
+                 all        3000        7382       0.526       0.052      0.0111     0.00361
+                 all        3000        7382       0.356      0.0104     0.00677     0.00191
+                 all        3000        7382       0.725      0.0103     0.00446     0.00175
+                 all        3000        7382       0.465      0.0555      0.0201     0.00664
+                 all        3000        7382       0.605      0.0571      0.0258     0.00873
+                 all        3000        7382       0.237        0.04     0.00977     0.00263
+                 all        3000        7382       0.335       0.126      0.0298      0.0103
+                 all        3000        7382       0.262      0.0685      0.0198     0.00657
+                 all        3000        7382       0.278      0.0873       0.025     0.00805
+                 all        3000        7382       0.601      0.0576      0.0248     0.00893
+                 all        3000        7382       0.661      0.0759      0.0454      0.0185
+                 all        3000        7382       0.391       0.108      0.0432      0.0168
+                 all        3000        7382       0.232       0.154      0.0554      0.0212
+                 all        3000        7382       0.286       0.105      0.0356       0.014
+                 all        3000        7382       0.374      0.0915      0.0449      0.0158
+                 all        3000        7382       0.267       0.135       0.073      0.0285
+                 all        3000        7382       0.385       0.124      0.0679      0.0266
+                 all        3000        7382       0.232        0.14      0.0583      0.0223
+                 all        3000        7382       0.236       0.159      0.0876      0.0331
+                 all        3000        7382       0.504      0.0896       0.058      0.0246
+                 all        3000        7382       0.319        0.16      0.0828      0.0308
+                 all        3000        7382       0.152        0.13      0.0454      0.0163
+                 all        3000        7382        0.29       0.127      0.0696      0.0288
+                 all        3000        7382       0.293       0.176      0.0995      0.0369
+                 all        3000        7382       0.251       0.198       0.105      0.0378
+                 all        3000        7382       0.294       0.186       0.103      0.0396
+                 all        3000        7382       0.299       0.179       0.101      0.0394
+                 all        3000        7382       0.271       0.202       0.104      0.0382
+                 all        3000        7382        0.26       0.199       0.125       0.047
+                 all        3000        7382       0.331       0.178       0.112      0.0413
+                 all        3000        7382       0.233       0.236       0.126      0.0471
+                 all        3000        7382       0.244       0.216       0.132      0.0491
+                 all        3000        7382       0.305       0.204       0.114      0.0441
+                 all        3000        7382       0.332       0.209       0.135       0.051
+                 all        3000        7382        0.35       0.204       0.139       0.052
+                 all        3000        7382       0.246       0.228       0.133      0.0504
+                 all        3000        7382       0.356         0.2       0.137      0.0506
+                 all        3000        7382       0.262       0.231       0.142      0.0539
+                 all        3000        7382       0.337       0.204       0.145      0.0542
+        Cardiomegaly        3000        1447        0.33       0.608       0.458       0.233
+  Aortic enlargement        3000          71           1           0      0.0718        0.02
+  Pleural thickening        3000         224       0.241      0.0179      0.0314     0.00907
+                 ILD        3000        1079       0.292       0.505       0.376       0.194
+         Nodule/Mass        3000         112       0.278       0.125      0.0991      0.0209
+  Pulmonary fibrosis        3000         242       0.287       0.186       0.163      0.0421
+        Lung Opacity        3000         241       0.212       0.199       0.116      0.0383
+         Atelectasis        3000         504       0.174       0.151      0.0932      0.0227
+        Other lesion        3000         549       0.241       0.215       0.141       0.052
+        Infiltration        3000         450      0.0774     0.00444      0.0111     0.00341
+    Pleural effusion        3000         500       0.215       0.376       0.209      0.0547
+       Calcification        3000         986        0.16       0.237       0.115      0.0289
+       Consolidation        3000          30           1           0      0.0125     0.00481
+        Pneumothorax        3000         947        0.21       0.232       0.133      0.0344
+Optimizer stripped from runs/train/exp6/weights/last.pt, 175.4MB
+Optimizer stripped from runs/train/exp6/weights/best.pt, 175.4MB

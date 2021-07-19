@@ -1,0 +1,38 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+                 all        3000        7382       0.181       0.151      0.0826      0.0344
+                 all        3000        7382       0.179       0.149      0.0825      0.0343
+                 all        3000        7382       0.206       0.125       0.083      0.0344
+                 all        3000        7382        0.18       0.147      0.0826      0.0343
+                 all        3000        7382       0.182       0.146      0.0822      0.0342
+                 all        3000        7382       0.183       0.145      0.0821      0.0342
+                 all        3000        7382       0.185       0.143      0.0813       0.034
+                 all        3000        7382       0.185       0.143      0.0811       0.034
+                 all        3000        7382       0.186       0.141      0.0804      0.0338
+  Aortic enlargement        3000        1447       0.234       0.821       0.475       0.234
+         Atelectasis        3000          71           0           0           0           0
+       Calcification        3000         224      0.0586      0.0893      0.0229     0.00998
+        Cardiomegaly        3000        1079       0.484       0.356       0.304       0.137
+       Consolidation        3000         112           0           0    0.000466     0.00014
+                 ILD        3000         242           1           0           0           0
+        Infiltration        3000         241           0           0           0           0
+        Lung Opacity        3000         504       0.108      0.0337      0.0112     0.00592
+         Nodule/Mass        3000         549       0.186       0.222      0.0955      0.0381
+        Other lesion        3000         450      0.0406      0.0222     0.00441     0.00221
+    Pleural effusion        3000         500       0.244        0.29       0.145      0.0306
+  Pleural thickening        3000         986       0.191       0.124      0.0635       0.014
+        Pneumothorax        3000          30           0           0           0           0
+  Pulmonary fibrosis        3000         947      0.0557      0.0158     0.00354    0.000954
+Optimizer stripped from runs/train/exp12/weights/last.pt, 175.4MB
+Optimizer stripped from runs/train/exp12/weights/best.pt, 175.4MB

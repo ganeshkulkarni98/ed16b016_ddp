@@ -1,0 +1,114 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+YOLOv5  torch 1.7.1 CUDA:0 (Tesla V100-PCIE-32GB, 32510.5MB)
+                    CUDA:1 (Tesla V100-PCIE-32GB, 32510.5MB)
+
+Namespace(adam=True, batch_size=48, bucket='', cache_images=False, cfg='/lfs/usrhome/btech/ed16b016/scratch/project/yolo/yolov5/models/yolov5x.yaml', data='/lfs/usrhome/btech/ed16b016/scratch/project/yolo/yolov5/data/vinbig.yaml', device='', entity=None, epochs=200, evolve=False, exist_ok=False, global_rank=-1, hyp='/lfs/usrhome/btech/ed16b016/scratch/project/yolo/yolov5/data/hyp.scratch.yaml', image_weights=False, img_size=[512, 512], linear_lr=False, local_rank=-1, log_artifacts=False, log_imgs=16, multi_scale=False, name='exp', noautoanchor=False, nosave=False, notest=False, project='runs/train', quad=False, rect=False, resume=False, save_dir='runs/train/exp31', single_cls=False, sync_bn=False, total_batch_size=48, weights='/lfs/usrhome/btech/ed16b016/scratch/project/yolo/yolov5x6.pt', workers=8, world_size=1)
+[34m[1mwandb: [0mInstall Weights & Biases for YOLOv5 logging with 'pip install wandb' (recommended)
+Start Tensorboard with "tensorboard --logdir runs/train", view at http://localhost:6006/
+[34m[1mhyperparameters: [0mlr0=0.01, lrf=0.2, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=0.05, cls=0.5, cls_pw=1.0, obj=1.0, obj_pw=1.0, iou_t=0.2, anchor_t=4.0, fl_gamma=0.0, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, mosaic=1.0, mixup=0.0
+
+                 from  n    params  module                                  arguments                     
+  0                -1  1      8800  models.common.Focus                     [3, 80, 3]                    
+  1                -1  1    115520  models.common.Conv                      [80, 160, 3, 2]               
+  2                -1  1    309120  models.common.C3                        [160, 160, 4]                 
+  3                -1  1    461440  models.common.Conv                      [160, 320, 3, 2]              
+  4                -1  1   3285760  models.common.C3                        [320, 320, 12]                
+  5                -1  1   1844480  models.common.Conv                      [320, 640, 3, 2]              
+  6                -1  1  13125120  models.common.C3                        [640, 640, 12]                
+  7                -1  1   7375360  models.common.Conv                      [640, 1280, 3, 2]             
+  8                -1  1   4099840  models.common.SPP                       [1280, 1280, [5, 9, 13]]      
+  9                -1  1  19676160  models.common.C3                        [1280, 1280, 4, False]        
+ 10                -1  1    820480  models.common.Conv                      [1280, 640, 1, 1]             
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']          
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]                           
+ 13                -1  1   5332480  models.common.C3                        [1280, 640, 4, False]         
+ 14                -1  1    205440  models.common.Conv                      [640, 320, 1, 1]              
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']          
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]                           
+ 17                -1  1   1335040  models.common.C3                        [640, 320, 4, False]          
+ 18                -1  1    922240  models.common.Conv                      [320, 320, 3, 2]              
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]                           
+ 20                -1  1   4922880  models.common.C3                        [640, 640, 4, False]          
+ 21                -1  1   3687680  models.common.Conv                      [640, 640, 3, 2]              
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]                           
+ 23                -1  1  19676160  models.common.C3                        [1280, 1280, 4, False]        
+ 24      [17, 20, 23]  1    127851  models.yolo.Detect                      [14, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [320, 640, 1280]]
+Model Summary: 607 layers, 87331851 parameters, 87331851 gradients, 217.6 GFLOPS
+
+Transferred 428/794 items from /lfs/usrhome/btech/ed16b016/scratch/project/yolo/yolov5x6.pt
+Scaled weight_decay = 0.000375
+Optimizer groups: 134 .bias, 134 conv.weight, 131 other
+
+[34m[1mtrain: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/yolo/data/train_2.cache' for images and labels... 3514 found, 8486 missing, 0 empty, 0 corrupted: 100%|██████████| 12000/12000 [00:00<?, ?it/s]
+[34m[1mtrain: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/yolo/data/train_2.cache' for images and labels... 3514 found, 8486 missing, 0 empty, 0 corrupted: 100%|██████████| 12000/12000 [00:00<?, ?it/s]
+
+[34m[1mval: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/yolo/data/val_2.cache' for images and labels... 880 found, 2120 missing, 0 empty, 0 corrupted: 100%|██████████| 3000/3000 [00:00<?, ?it/s]
+[34m[1mval: [0mScanning '/lfs/usrhome/btech/ed16b016/scratch/project/yolo/data/val_2.cache' for images and labels... 880 found, 2120 missing, 0 empty, 0 corrupted: 100%|██████████| 3000/3000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/lfs/usrhome/btech/ed16b016/scratch/project/yolo/yolov5/train_28.py", line 533, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "/lfs/usrhome/btech/ed16b016/scratch/project/yolo/yolov5/train_28.py", line 208, in train
+    plot_labels(labels, names, save_dir, loggers)
+  File "/lfs1/usrscratch/btech/ed16b016/project/yolo/yolov5/utils/plots.py", line 311, in plot_labels
+    plt.savefig(save_dir / 'labels.jpg', dpi=200)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/pyplot.py", line 859, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/figure.py", line 2311, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2217, in print_figure
+    **kwargs)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 1639, in wrapper
+    return func(*args, **kwargs)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/cbook/deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/cbook/deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/cbook/deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  [Previous line repeated 1 more time]
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 593, in print_jpg
+    .save(filename_or_obj, format='jpeg', **pil_kwargs))
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/PIL/Image.py", line 2164, in save
+    save_handler(self, fp, filename)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/PIL/JpegImagePlugin.py", line 761, in _save
+    ImageFile._save(im, fp, [("jpeg", (0, 0) + im.size, 0, rawmode)], bufsize)
+  File "/lfs/usrhome/btech/ed16b016/.conda/envs/ganu/lib/python3.7/site-packages/PIL/ImageFile.py", line 542, in _save
+    s = e.encode_to_file(fh, bufsize)
+OSError: [Errno 122] Disk quota exceeded
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
