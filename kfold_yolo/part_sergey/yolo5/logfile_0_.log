@@ -1,0 +1,182 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+CUR_PATH /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/
+[34m[1mgithub: [0mskipping check (not a git repository)
+Plotting labels... 
+
+[34m[1mautoanchor: [0mAnalyzing anchors... anchors/target = 4.83, Best Possible Recall (BPR) = 1.0000
+                 all    2.17e+03          97       0.188       0.264       0.115      0.0377
+fi [    0.10767]
+best_fitness 0.0
+                 all    2.17e+03          97      0.0927       0.416        0.12      0.0392
+fi [    0.11214]
+best_fitness [    0.10767]
+                 all    2.17e+03          97      0.0824       0.334       0.127      0.0447
+fi [     0.1192]
+best_fitness [    0.11214]
+                 all    2.17e+03          97       0.395       0.152       0.137      0.0496
+fi [     0.1287]
+best_fitness [     0.1192]
+                 all    2.17e+03          97       0.604       0.123       0.126       0.045
+fi [    0.11775]
+best_fitness [     0.1287]
+                 all    2.17e+03          97       0.199       0.161      0.0968      0.0336
+fi [   0.090478]
+best_fitness [     0.1287]
+                 all    2.17e+03          97       0.228       0.185        0.14      0.0556
+fi [    0.13119]
+best_fitness [     0.1287]
+                 all    2.17e+03          97        0.13       0.423       0.178      0.0536
+fi [    0.16546]
+best_fitness [    0.13119]
+                 all    2.17e+03          97       0.206       0.178       0.121      0.0478
+fi [    0.11406]
+best_fitness [    0.16546]
+                 all    2.17e+03          97        0.43       0.169        0.11      0.0372
+fi [    0.10281]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.431       0.155       0.117      0.0485
+fi [    0.11034]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.113       0.377       0.166      0.0662
+fi [    0.15647]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.214       0.153      0.0657      0.0251
+fi [    0.06164]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.787      0.0668       0.061      0.0171
+fi [   0.056651]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.282       0.156      0.0858      0.0346
+fi [   0.080701]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.538       0.115       0.124      0.0415
+fi [    0.11585]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.324       0.187       0.117      0.0361
+fi [    0.10929]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.159       0.215       0.075      0.0281
+fi [   0.070277]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.306       0.134       0.103      0.0398
+fi [   0.096282]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.249       0.137       0.079      0.0298
+fi [   0.074122]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.575       0.103      0.0952      0.0384
+fi [   0.089532]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.198       0.215       0.121      0.0479
+fi [    0.11383]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.484       0.116       0.104      0.0333
+fi [   0.097224]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.294        0.14      0.0993      0.0379
+fi [   0.093208]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.163       0.252      0.0969      0.0348
+fi [   0.090715]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.369       0.122      0.0905      0.0385
+fi [   0.085255]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.278       0.223        0.12      0.0447
+fi [    0.11269]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.193       0.116      0.0926       0.036
+fi [   0.086944]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.285        0.17       0.114      0.0468
+fi [    0.10732]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.212       0.169       0.111       0.044
+fi [    0.10417]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.238        0.18       0.117      0.0455
+fi [    0.10949]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.175       0.291       0.108      0.0416
+fi [    0.10122]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.182        0.28       0.104      0.0409
+fi [   0.097859]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.166       0.279      0.0959      0.0365
+fi [    0.08993]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.202       0.235       0.121      0.0458
+fi [     0.1138]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.197        0.29       0.126      0.0475
+fi [    0.11837]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.234       0.152       0.132      0.0521
+fi [    0.12437]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.193       0.186       0.115      0.0469
+fi [    0.10851]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.197       0.155       0.104      0.0435
+fi [   0.098373]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.191       0.163         0.1       0.043
+fi [   0.094517]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.201       0.165       0.109      0.0404
+fi [    0.10222]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.216       0.164         0.1       0.038
+fi [   0.094044]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.215       0.223       0.124      0.0543
+fi [    0.11732]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.231       0.161       0.101      0.0396
+fi [   0.094931]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.217       0.138      0.0914      0.0358
+fi [   0.085809]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.245        0.15       0.106      0.0432
+fi [   0.099477]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.212       0.181       0.101      0.0391
+fi [   0.094822]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.214       0.163      0.0962      0.0363
+fi [   0.090244]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.214       0.181       0.116      0.0461
+fi [    0.10883]
+best_fitness [    0.16546]
+                 all    2.17e+03          97       0.236       0.143       0.117      0.0438
+  Aortic enlargement    2.17e+03          13       0.262       0.308       0.311       0.108
+         Atelectasis    2.17e+03           2           0           0           0           0
+       Calcification    2.17e+03          16       0.222        0.25       0.075       0.021
+        Cardiomegaly    2.17e+03          11       0.203       0.364       0.299       0.114
+                 ILD    2.17e+03          17       0.318       0.235       0.129      0.0366
+        Lung Opacity    2.17e+03           3           0           0      0.0258      0.0103
+         Nodule/Mass    2.17e+03           7        0.65       0.429       0.394         0.2
+        Other lesion    2.17e+03          10           0           0     0.00876       0.002
+    Pleural effusion    2.17e+03           7           0           0       0.127      0.0207
+  Pleural thickening    2.17e+03           2           0           0     0.00291    0.000291
+        Pneumothorax    2.17e+03           1           1           0           0           0
+  Pulmonary fibrosis    2.17e+03           8       0.177       0.125      0.0319      0.0131
+fi [    0.10971]
+best_fitness [    0.16546]
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/output/fold03/weights/last.pt, 175.3MB
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/output/fold03/weights/best.pt, 175.3MB

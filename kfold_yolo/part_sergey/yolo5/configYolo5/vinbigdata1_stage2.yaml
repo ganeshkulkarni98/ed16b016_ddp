@@ -1,0 +1,21 @@
+names:
+- Aortic enlargement
+- Atelectasis
+- Calcification
+- Cardiomegaly
+- Consolidation
+- ILD
+- Infiltration
+- Lung Opacity
+- Nodule/Mass
+- Other lesion
+- Pleural effusion
+- Pleural thickening
+- Pneumothorax
+- Pulmonary fibrosis
+nc: 14
+
+# train and val datasets (image directory or *.txt file with image paths)
+train: /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/data/fold1_train.txt
+val:  /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/data/fold1_val.txt
+

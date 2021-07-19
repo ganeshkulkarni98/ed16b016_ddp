@@ -1,0 +1,78 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+CUR_PATH /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/
+[34m[1mgithub: [0mskipping check (not a git repository)
+Plotting labels... 
+
+[34m[1mautoanchor: [0mAnalyzing anchors... anchors/target = 4.79, Best Possible Recall (BPR) = 0.9946
+                 all    2.18e+03         106       0.126       0.319       0.165      0.0626
+fi [    0.15482]
+best_fitness 0.0
+                 all    2.18e+03         106       0.456        0.14       0.169      0.0609
+fi [     0.1584]
+best_fitness [    0.15482]
+                 all    2.18e+03         106       0.529       0.179       0.205       0.056
+fi [    0.19002]
+best_fitness [     0.1584]
+                 all    2.18e+03         106       0.343       0.257       0.185      0.0617
+fi [     0.1724]
+best_fitness [    0.19002]
+                 all    2.18e+03         106       0.143       0.256       0.157      0.0508
+fi [     0.1464]
+best_fitness [    0.19002]
+                 all    2.18e+03         106       0.362       0.282       0.177      0.0657
+fi [    0.16599]
+best_fitness [    0.19002]
+                 all    2.18e+03         106       0.419       0.287       0.209      0.0706
+fi [    0.19541]
+best_fitness [    0.19002]
+                 all    2.18e+03         106       0.399       0.215       0.221      0.0786
+fi [    0.20713]
+best_fitness [    0.19541]
+                 all    2.18e+03         106       0.389       0.259       0.219      0.0748
+fi [    0.20423]
+best_fitness [    0.20713]
+                 all    2.18e+03         106       0.336       0.223       0.186       0.064
+fi [    0.17355]
+best_fitness [    0.20713]
+                 all    2.18e+03         106       0.584       0.201       0.213      0.0689
+fi [    0.19836]
+best_fitness [    0.20713]
+                 all    2.18e+03         106       0.353       0.313       0.215      0.0663
+fi [    0.19999]
+best_fitness [    0.20713]
+                 all    2.18e+03         106       0.473       0.175       0.189      0.0594
+fi [    0.17611]
+best_fitness [    0.20713]
+                 all    2.18e+03         106       0.314       0.301       0.216      0.0695
+fi [    0.20143]
+best_fitness [    0.20713]
+                 all    2.18e+03         106       0.225       0.323        0.21      0.0619
+  Aortic enlargement    2.18e+03           8      0.0407       0.125       0.081      0.0199
+         Atelectasis    2.18e+03           3       0.197       0.333       0.067      0.0268
+       Calcification    2.18e+03          18        0.24       0.278       0.269      0.0828
+        Cardiomegaly    2.18e+03          14        0.32         0.5       0.331       0.189
+       Consolidation    2.18e+03           2       0.257         0.5       0.532      0.0606
+                 ILD    2.18e+03          14       0.156       0.214       0.137      0.0538
+        Infiltration    2.18e+03           6       0.784       0.167       0.245      0.0411
+        Lung Opacity    2.18e+03           5           0           0      0.0577     0.00584
+         Nodule/Mass    2.18e+03           4       0.282       0.982       0.555       0.218
+        Other lesion    2.18e+03           9      0.0892       0.111      0.0587      0.0289
+    Pleural effusion    2.18e+03           8       0.253       0.375       0.196      0.0457
+  Pleural thickening    2.18e+03           6      0.0993       0.167      0.0557     0.00914
+  Pulmonary fibrosis    2.18e+03           9       0.205       0.444       0.146      0.0231
+fi [    0.19525]
+best_fitness [    0.20713]
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/output/fold13/weights/last.pt, 175.3MB
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_sergey/output/fold13/weights/best.pt, 175.3MB
