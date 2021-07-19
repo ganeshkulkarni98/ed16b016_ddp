@@ -1,0 +1,13 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
