@@ -1,0 +1,32 @@
+no change     /lfs/sware/anaconda3_2020/condabin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda
+no change     /lfs/sware/anaconda3_2020/bin/conda-env
+no change     /lfs/sware/anaconda3_2020/bin/activate
+no change     /lfs/sware/anaconda3_2020/bin/deactivate
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.sh
+no change     /lfs/sware/anaconda3_2020/etc/fish/conf.d/conda.fish
+no change     /lfs/sware/anaconda3_2020/shell/condabin/Conda.psm1
+no change     /lfs/sware/anaconda3_2020/shell/condabin/conda-hook.ps1
+no change     /lfs/sware/anaconda3_2020/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /lfs/sware/anaconda3_2020/etc/profile.d/conda.csh
+no change     /lfs/usrhome/btech/ed16b016/.bashrc
+No action taken.
+                 all       3e+03    4.64e+03       0.391       0.475       0.382       0.179
+                 all       3e+03    4.64e+03        0.39       0.477        0.38       0.177
+                 all       3e+03    4.64e+03       0.372       0.474       0.375       0.179
+                 all       3e+03    4.64e+03       0.381       0.476       0.378        0.18
+                 all       3e+03    4.64e+03       0.383       0.481       0.375       0.177
+                 all       3e+03    4.64e+03       0.391       0.481       0.378        0.18
+                 all       3e+03    4.64e+03       0.388       0.472       0.379       0.181
+                 all       3e+03    4.64e+03       0.391        0.48       0.383       0.181
+                 all       3e+03    4.64e+03       0.393       0.473        0.38       0.182
+                 all       3e+03    4.64e+03       0.398       0.474        0.38       0.182
+                 all       3e+03    4.64e+03       0.396       0.469       0.379       0.181
+                 all       3e+03    4.64e+03       0.399       0.473        0.38       0.182
+                 all       3e+03    4.64e+03       0.399       0.471       0.382       0.182
+                 all       3e+03    4.64e+03       0.393       0.469       0.377       0.182
+                 all       3e+03    4.64e+03       0.396       0.471       0.378        0.18
+                 all       3e+03    4.64e+03       0.394       0.467       0.379        0.18
+                 all       3e+03    4.64e+03       0.395       0.471       0.379        0.18
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_zfturbo/output/yolo_model/yolov5_fold1/exp8/weights/last.pt, 175.3MB
+Optimizer stripped from /lfs/usrhome/btech/ed16b016/scratch/project/kfold_yolo/part_zfturbo/output/yolo_model/yolov5_fold1/exp8/weights/best.pt, 175.3MB
