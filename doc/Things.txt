@@ -1,0 +1,47 @@
+converted vin_big_yolov4_cfg name to data
+
+Partial Classes with YOLOV5
+
+I have splitted dataset into two list of classes
+0,3,11,13 and other is rest from 1 to 12. Also I have removed 14th class
+
+Since I gave model for training of above for size 512 and 1024
+
+train 29 and 31 for 1 to 12 that is nc = 10   dataset_1, yolo5x_1 and vinbig_1 while txt data is train_3 and val_3
+
+train 30 and 32 for 0 .., 13 that is nc = 4   dataset_2, yolo5x_2 and vinbig_2 while txt data is train_4 and val_4
+
+train_28 removed 14th class dataset, yolo5x and vinbig while txt data is train_2 and val_2
+
+
+
+run/exp38 - train_28 all false images remove and gave model for training  512 image size.
+
+yolov5/run/ex44 - train_29 . only 10 classes from 1to 12 has been taken and generated results from 512 image size
+
+yolov5/run/ex46 - train_30 . only 4 classes has been taken and generated results from 512 image size
+
+run/exp17 - train_26 negative images gave full boundry boxes with overall 15 labales. 512 image size
+
+generate results from above and then merge it.
+
+train_26 -- run/exp17 -- best_26  exp 11 labels_26
+
+train_29 -- yolov5/run/exp44 -- best_29  exp 12 labels_29
+
+train_30 -- yolov5/run/exp46 -- best_30  exp 13 labels_30
+
+train_28 -- run/exp38 -- best_28  exp 14 labels_28
+
+
+Kfolds - Detect and detect_mirror -- for fold 1, best.pt is not working so I took last.pt of that currosponding. 
+
+
+train 34 for 1, 4, 12 that is nc = 3   dataset_3, yolo5x_3 and vinbig_3 while txt data is train_5 and val_5
+
+train 35 for 2, 5, 6 that is nc = 3   dataset_4, yolo5x_4 and vinbig_4 while txt data is train_6 and val_6
+
+train 36 for 7, 8, 9, 10 that is nc = 4   dataset_5, yolo5x_5 and vinbig_5 while txt data is train_7 and val_7
+
+
+

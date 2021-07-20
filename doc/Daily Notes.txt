@@ -1,0 +1,56 @@
+Epoch gpu_mem GIoU Obj Cls total targets img_size P R mAP@.5 mAP@.5:.95 val_GIoU val_obj val_cls
+
+
+(deleted) runs/exp13  incomplete training, image size 1024, 88/199 epochs, results (0.2022, 0.1084), 
+no findings including, errorfile 22, bs 28, adam, weight yolov5x6.pt    deleted
+
+run/exp15 complete training, image size 1024, 199 epochs, no findings including, errorfile 24, bz 28, 
+adam, weight yolov5x6.pt                   --model 4
+
+run/exp17 complete training, image size 512, 199 epochs, no findings including, errorfile 26, bz 64, 
+adam, weight yolov5x6.pt                      --model 6
+
+run/exp38 complete training, image size 512, 199 epochs, no findings excluded, false images absent, errorfile 28, 
+bz 64, adam, weight yolov5x6.pt  train_2.cache   --model 8
+
+run/exp6 complete training, image size 1024, 49 epochs, no findings excluded, false images present, errorfile 8, 
+bz 16, adam, weight yolov5x.pt         --model 1
+
+run/exp12 complete training, image size 1024, 199 epochs, no findings excluded, false images present, errorfile 21, 
+bz 16, adam                     --model 3             
+
+run/exp16 incomplete training, image size 1024, 202/299 epochs, no findings included, errorfile 25, 
+bz 16, adam, weight yolov5x6.pt                     --model 5
+
+run/exp18 complete training, image size 512, 199 epochs, no findings excluded, false images present, 
+errorfile 27, bz 64, adam, weight yolov5x6.pt  train_1.cache          --model 7
+
+run/exp9 complete training, image size 1024, 49 epochs, no findings excluded, false images present, 
+errorfile 13, bz 16, adam, weight yolov5x6.pt          --model 2
+
+yolov5/run/exp44 complete training, image size 512, 199 epochs, no findings excluded, false images absent, 
+errorfile 29, bz 64, adam, weight yolov5x6.pt  train_3.cache, only 10 classes from 1to 12    --model 9
+
+yolov5/run/exp46 complete training, image size 512, 199 epochs, no findings excluded, false images absent, 
+errorfile 30, bz 64, adam, weight yolov5x6.pt  train_4.cache, only 4 classes 0, 3, 11, 13      --model 10
+
+yolov5/run/exp47 complete training, image size 1024, 99 epochs, no findings excluded, false images absent, 
+errorfile 31, bz 24, adam, weight yolov5x6.pt  train_3.cache, only 10 classes from 1to 12       --model 11
+
+yolov5/run/exp48 incomplete training, image size 1024, 31/99 epochs, no findings excluded, false images absent, 
+errorfile 32, bz 24, adam, weight yolov5x6.pt  train_4.cache, only 4 classes 0, 3, 11, 13      --model 12
+
+
+train_.cache - full boxes
+train_1.cache = empty boxes
+train_2.cache = remove false images
+
+
+
+
+
+
+
+
+
+

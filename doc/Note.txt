@@ -1,0 +1,41 @@
+# trained on lab gpu
+exp - weights - last.pt - labels - yolo_output  (not sure throught check once again )
+
+exp2 - weights - best.pt = labels_1 - yolo_output_1 
+
+# trained with aqua gpu on 28/03
+
+exp3 - weights_1 - last.pt - labels_2 - yolo_output_2
+
+exp4 - weights_1 - best.pt - labels_3 - yolo_output_3
+
+
+# trained with aqua gpu on 30/03
+
+exp5 - weights_2 -best.pt - labels_4  erro in best pt weight
+
+exp5 - weights_2 - last.pt  - labels_4  - yolo_output_4
+
+
+# trained for 199 epochs
+
+exp6 - weights_3 - last.pt - labels_5 - yolo_output_5
+
+exp7 - weights_3 - best.pt - labels_6 - yolo_output_6
+
+
+
+Faster rcnn - epoch 38 - frcnn_output
+
+
+
+
+Coordination:
+
+train_24 - exp15    ---  train_24_further furthur training    best_24   exp8 labels_24
+
+train_25 - exp16    ---  train_25_furthur training         best_25    exp9 labels_25
+
+
+train_26 - exp17 aqua     ---  train_26         best_26    exp10 labels_26
+
