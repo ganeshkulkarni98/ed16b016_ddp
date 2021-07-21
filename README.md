@@ -21,7 +21,7 @@ It consists the managing relations between different files and recording the cha
 
 I have also used Faster RCNN in the PyTorch environment. In this Faster RCNN folder, the COCO format is used and trained the model.
 
-## K fold_yolo
+## Kfold_yolo
 
 It consists of the K fold Yolo method and Stage 2 k fold Yolo method.
 
